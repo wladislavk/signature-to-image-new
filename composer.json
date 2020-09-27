@@ -1,0 +1,20 @@
+{
+    "name": "vkr/signature-to-image-new",
+    "type": "library",
+    "description": "PHP script for Signature Pad",
+    "homepage": "https://github.com/wladislavk/signature-to-image-new",
+    "license": "MIT",
+    "authors": [
+        {"name": "Vladislav Kryshtanovskiy", "email": "wladislav.k@gmail.com"}
+    ],
+    "require": {
+        "php": ">=7.2",
+        "ext-gd": "*",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "VKR\\SignatureToImageNew\\": "src/"
+        }
+    }
+}
